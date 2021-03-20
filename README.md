@@ -25,3 +25,14 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# Add ngx-build-plus 
+## 1, "npm install ngx-build-plus -D"
+## 2, "ng add ngx-build-plus": add build plus as your projects builder
+## 3, Configure our build process:
+    add a file at our root level, we will call this webpack.extra.js
+    module.exports = {
+        output: {
+        jsonpFunction: 'namespacedName'
+        }
+    }
