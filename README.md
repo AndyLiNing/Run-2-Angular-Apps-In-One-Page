@@ -36,3 +36,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
         jsonpFunction: 'namespacedName'
         }
     }
+## 4, ng build — prod — extra-webpack-config webpack.extra.js
